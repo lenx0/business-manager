@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('./assets/fonts/NeueMachina-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Neue Machina', sans-serif;
+  }
+  
