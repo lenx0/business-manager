@@ -1,8 +1,8 @@
-import { Button, Grid, TextField, Typography } from "@mui/material"
+import { Button, Grid, TextField, Typography } from "@mui/material";
 
 const Subscribe = () => {
   return (
-    <Grid container mt={10} justifyContent="space-between">
+    <Grid container mt={10} justifyContent="space-between" backgroundColor="blue">
       <Grid item alignContent="center">
         <Typography fontSize="70px">
           Sempre Acompanhe & <br />
@@ -52,4 +52,4 @@ const Subscribe = () => {
   );
 };
 
-export default Subscribe
+export default Subscribe;

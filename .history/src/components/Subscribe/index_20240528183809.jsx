@@ -1,4 +1,4 @@
-import { Button, Grid, TextField, Typography } from "@mui/material"
+import { Button, Grid, TextField, Typography } from "@mui/material";
 
 const Subscribe = () => {
   return (
@@ -52,4 +52,4 @@ const Subscribe = () => {
   );
 };
 
-export default Subscribe
+export default Subscribe;
