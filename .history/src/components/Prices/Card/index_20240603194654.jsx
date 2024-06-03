@@ -24,7 +24,7 @@ const PriceCard = ({ price, title, features }) => (
         transition: "border-color 0.9s ease",
         "&:hover": {
           borderColor: "green",
-          animation: "pulse 0.5s infinite",
+          
         },
         "@keyframes pulse": {
           "0%": {

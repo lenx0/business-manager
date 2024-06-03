@@ -95,7 +95,7 @@ const PriceCard = ({ price, title, features }) => (
         </Stack>
       </CardContent>
       <Grid container justifyContent="center">
-        <Button
+      <Button
           variant="contained"
           fullWidth
           sx={{

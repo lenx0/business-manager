@@ -28,7 +28,7 @@ const PriceCard = ({ price, title, features }) => (
         },
         "@keyframes pulse": {
           "0%": {
-            boxShadow: "0 0 0 0 #1976d2",
+            boxShadow: "0 0 0 0 rgba(0, 128, 0, 0.897)",
           },
           "70%": {
             boxShadow: "0 0 0 10px rgba(0, 128, 0, 0)",
@@ -95,7 +95,7 @@ const PriceCard = ({ price, title, features }) => (
         </Stack>
       </CardContent>
       <Grid container justifyContent="center">
-        <Button
+      <Button
           variant="contained"
           fullWidth
           sx={{
@@ -103,7 +103,7 @@ const PriceCard = ({ price, title, features }) => (
             borderRadius: 0,
             backgroundColor: "black",
             "&:hover": {
-              backgroundColor: "#1976d2",
+              backgroundColor: "green",
             },
           }}
         >

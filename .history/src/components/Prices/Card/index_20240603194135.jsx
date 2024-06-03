@@ -28,7 +28,7 @@ const PriceCard = ({ price, title, features }) => (
         },
         "@keyframes pulse": {
           "0%": {
-            boxShadow: "0 0 0 0 #1976d2",
+            boxShadow: "0 0 0 0 rgba(0, 128, 0, 0.897)",
           },
           "70%": {
             boxShadow: "0 0 0 10px rgba(0, 128, 0, 0)",
@@ -98,14 +98,8 @@ const PriceCard = ({ price, title, features }) => (
         <Button
           variant="contained"
           fullWidth
-          sx={{
-            padding: 2,
-            borderRadius: 0,
-            backgroundColor: "black",
-            "&:hover": {
-              backgroundColor: "#1976d2",
-            },
-          }}
+          color="primary"
+          style={{ padding: 15, borderRadius: 0, backgroundColor: "#000000" }}
         >
           Selecionar
         </Button>

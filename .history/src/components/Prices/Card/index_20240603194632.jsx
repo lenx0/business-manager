@@ -23,19 +23,8 @@ const PriceCard = ({ price, title, features }) => (
         justifyContent: "space-between",
         transition: "border-color 0.9s ease",
         "&:hover": {
-          borderColor: "green",
-          animation: "pulse 0.5s infinite",
-        },
-        "@keyframes pulse": {
-          "0%": {
-            boxShadow: "0 0 0 0 #1976d2",
-          },
-          "70%": {
-            boxShadow: "0 0 0 10px rgba(0, 128, 0, 0)",
-          },
-          "100%": {
-            boxShadow: "0 0 0 0 rgba(0, 128, 0, 0)",
-          },
+          boxShadow: "0 0 0 0 #1976d2",
+          
         },
       }}
     >

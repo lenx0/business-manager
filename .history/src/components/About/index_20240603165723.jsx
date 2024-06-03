@@ -10,7 +10,7 @@ const About = () => {
   ];
 
   return (
-    <Grid container justifyContent="space-between" mt={60} mb={4}>
+    <Grid container justifyContent="space-between" mt={4} mb={4}>
       <Grid item xs={12} md={6}>
         <img src="../src/assets/images/illustration2.png" alt="Illustration" style={{ maxWidth: "100%", height: "auto" }} />
       </Grid>
@@ -21,9 +21,9 @@ const About = () => {
         <Typography variant="body1" mt={2}>
           Adicione um Visualizador à sua equipe para que eles possam ver tudo o que você compartilha, ou convide pessoas para documentos individuais. A escolha é sua. Os interessados podem conferir designs em seus navegadores da web, testar protótipos e deixar feedback gratuitamente.
         </Typography>
-        <ul style={{ paddingLeft: 20, marginTop: 16 }}>
+        <ul style={{ paddingLeft: 20 }}>
           {features.map((feature, index) => (
-            <li key={index} style={{ marginBottom: 8 }}>
+            <li key={index}>
               {feature}
             </li>
           ))}

@@ -21,14 +21,14 @@ const PriceCard = ({ price, title, features }) => (
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
-        transition: "border-color 0.9s ease",
+        transition: "border-color 0.3s ease",
         "&:hover": {
           borderColor: "green",
-          animation: "pulse 0.5s infinite",
+          animation: "pulse 1.5s infinite",
         },
         "@keyframes pulse": {
           "0%": {
-            boxShadow: "0 0 0 0 #1976d2",
+            boxShadow: "0 0 0 0 rgba(0, 128, 0, 0.4)",
           },
           "70%": {
             boxShadow: "0 0 0 10px rgba(0, 128, 0, 0)",
@@ -98,14 +98,8 @@ const PriceCard = ({ price, title, features }) => (
         <Button
           variant="contained"
           fullWidth
-          sx={{
-            padding: 2,
-            borderRadius: 0,
-            backgroundColor: "black",
-            "&:hover": {
-              backgroundColor: "#1976d2",
-            },
-          }}
+          color="primary"
+          style={{ padding: 15, borderRadius: 0 }}
         >
           Selecionar
         </Button>

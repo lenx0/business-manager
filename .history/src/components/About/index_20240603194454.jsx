@@ -10,7 +10,7 @@ const About = () => {
   ];
 
   return (
-    <Grid container justifyContent="space-between" mt={60} mb={4}>
+    <Grid container justifyContent="space-between" mt={10} mb={4}>
       <Grid item xs={12} md={6}>
         <img src="../src/assets/images/illustration2.png" alt="Illustration" style={{ maxWidth: "100%", height: "auto" }} />
       </Grid>
