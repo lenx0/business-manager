@@ -3,7 +3,12 @@ import { Grid, Stack, Typography } from "@mui/material";
 const Works = () => {
   return (
     <>
-      <Grid container justifyContent="space-between" mt={60} mb={60}>
+      <Grid
+        container
+        justifyContent="space-between"
+        mt={60}
+        mb={60}
+      >
         <Grid item>
           <Typography fontSize="60px">
             Construindo o melhor

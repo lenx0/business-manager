@@ -20,7 +20,7 @@ const Subscribe = () => {
             sx={{
               "& .MuiOutlinedInput-root": {
                 borderRadius: "5px 0 0 5px",
-                backgroundColor: "#ffffff",
+                backgroundColor: "#ffffff"
               },
             }}
           />
