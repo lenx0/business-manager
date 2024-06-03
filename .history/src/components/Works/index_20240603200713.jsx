@@ -55,19 +55,8 @@ const Works = () => {
           ))}
         </Stack>
       </Grid>
-      <Grid
-        item
-        xs={12}
-        md={5}
-        container
-        justifyContent="center"
-        alignItems="center"
-      >
-        <img
-          src="/assets/images/Illustration3.png"
-          alt="Illustration"
-          style={{ maxWidth: "100%", height: "auto" }}
-        />
+      <Grid item xs={12} md={5} container justifyContent="center" alignItems="center">
+        <img src="/assets/images/Illustration3.png" alt="Illustration" style={{ maxWidth: '100%', height: 'auto' }} />
       </Grid>
     </Grid>
   );

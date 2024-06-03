@@ -4,7 +4,7 @@ import FeatureItem from "./FeatureItem";
 const Works = () => {
   const features = [
     {
-      iconSrc: "/assets/icons/icon1.png",
+      iconSrc: "../src/assets/icons/icon1.png",
       title: "Bibliotecas na Nuvem Compartilhadas",
       description: `
         Navegue até o painel Seu trabalho na barra lateral esquerda.
@@ -13,7 +13,7 @@ const Works = () => {
       `,
     },
     {
-      iconSrc: "/assets/icons/icon2.png",
+      iconSrc: "../src/assets/icons/icon2.png",
       title: "Entrega gratuita para desenvolvedores, direto no navegador",
       description: `
         O Cloud Inspector facilita para os desenvolvedores obterem as informações necessárias
@@ -21,7 +21,7 @@ const Works = () => {
       `,
     },
     {
-      iconSrc: "/assets/icons/icon4.png",
+      iconSrc: "../src/assets/icons/icon4.png",
       title: "Edição colaborativa em tempo real",
       description: `
         O Room Service ajuda você a criar recursos colaborativos em tempo real.
@@ -29,7 +29,7 @@ const Works = () => {
       `,
     },
     {
-      iconSrc: "/assets/icons/icon3.png",
+      iconSrc: "../src/assets/icons/icon3.png",
       title: "Integrações com a API da Nuvem",
       description: `
         Desbloquear esse valor requer um iPaaS que entregue o poder transformador das APIs e integração.
@@ -55,19 +55,8 @@ const Works = () => {
           ))}
         </Stack>
       </Grid>
-      <Grid
-        item
-        xs={12}
-        md={5}
-        container
-        justifyContent="center"
-        alignItems="center"
-      >
-        <img
-          src="/assets/images/Illustration3.png"
-          alt="Illustration"
-          style={{ maxWidth: "100%", height: "auto" }}
-        />
+      <Grid item xs={12} md={5} container justifyContent="center" alignItems="center">
+        <img src="/assets/images/Illustration3.png" alt="Illustration" style={{ maxWidth: '100%', height: 'auto' }} />
       </Grid>
     </Grid>
   );
