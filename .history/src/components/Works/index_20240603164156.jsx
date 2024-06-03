@@ -38,8 +38,8 @@ const Works = () => {
   ];
 
   return (
-    <Grid container justifyContent="space-between" mt={60} mb={60} spacing={4}>
-      <Grid item xs={12} md={6}>
+    <Grid container justifyContent="space-between" mt={60} mb={60}>
+      <Grid item>
         <Typography fontSize="60px">
           Construindo o melhor
           <br /> espaço para colaboração.
@@ -55,8 +55,8 @@ const Works = () => {
           ))}
         </Stack>
       </Grid>
-      <Grid item xs={12} md={5} container justifyContent="center" alignItems="center">
-        <img src="../src/assets/images/illustration3.png" alt="Illustration" style={{ maxWidth: '100%', height: 'auto' }} />
+      <Grid item>
+        <img src="../src/assets/images/illustration3.png" alt="Illustration" />
       </Grid>
     </Grid>
   );
