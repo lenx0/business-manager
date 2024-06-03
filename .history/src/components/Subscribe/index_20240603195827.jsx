@@ -47,7 +47,7 @@ const Subscribe = () => {
         </Grid>
       </Grid>
       <Grid item>
-        <img src="/assets/images/illustration1.png" />
+        <img src="../src/assets/images/illustration1.png" />
       </Grid>
     </Grid>
   );
