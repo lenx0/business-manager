@@ -1,7 +1,15 @@
-import { Grid, Typography } from "@mui/material";
-import PriceCard from "./Card";
+import {
+  Box,
+  Button,
+  Card,
+  CardContent,
+  Grid,
+  Stack,
+  Typography,
+} from "@mui/material";
 
 const Prices = () => {
+
   const priceCards = [
     {
       price: 49,
@@ -72,3 +80,6 @@ const Prices = () => {
 };
 
 export default Prices;
+{
+  /* <img src="../src/assets/images/illustration4.png" /> */
+}

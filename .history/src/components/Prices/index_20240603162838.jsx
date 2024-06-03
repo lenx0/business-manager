@@ -1,7 +1,11 @@
-import { Grid, Typography } from "@mui/material";
+import {
+  Grid,
+  Typography,
+} from "@mui/material";
 import PriceCard from "./Card";
 
 const Prices = () => {
+
   const priceCards = [
     {
       price: 49,
